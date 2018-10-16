@@ -1,8 +1,9 @@
 require('pry')
 def alphabetize(array)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  def get_index(char)
-  a.index(char)
+  def index_val(char)
+  alphabet.index(char)
+end
   
   
   array.sort_by{|word|
