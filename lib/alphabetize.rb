@@ -3,6 +3,9 @@ def alphabetize(arr)
   arr.sort_by{|word|
     letters=alphabet.split('')
     letters.collect{|char|
-      letters.index(char)}}
+      letters.index(char)}
+    letters.join
+    
+  }
 
 end
