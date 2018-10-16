@@ -2,6 +2,8 @@ def alphabetize(arr)
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arry.sort_by{|word|
 letters=ESPERANTO_ALPHABET.split('')
-letters.find(word).index
+word val=0:
+letters.each{
+letters.index(char)
 
 end
