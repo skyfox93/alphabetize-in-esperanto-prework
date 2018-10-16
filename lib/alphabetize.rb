@@ -6,9 +6,8 @@ def alphabetize(array)
 end
 array.sort_by{|word|
     letters=alphabet.split('')
-    sort_val= word.split('').{|char|
-  a}
-    sort_val
+    sort_val= word.split('').collect{|char|char_val(char)}
+    sort_val.join
     
   }
 
