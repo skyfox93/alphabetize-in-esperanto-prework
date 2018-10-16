@@ -4,6 +4,6 @@ def alphabetize(arr)
 letters=ESPERANTO_ALPHABET.split('')
 word_val=letters.collect{|char
 letters.index(char)}
-word_val.to_i(28)
+word_val.to_i(28)}
 
 end
