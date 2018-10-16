@@ -4,7 +4,7 @@ def alphabetize(arr)
     letters=alphabet.split('')
     sort_val=letters.collect{|char|
       letters.index(char)}
-    sort_val.join
+    sort_val
     
   }
 
