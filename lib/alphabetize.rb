@@ -7,7 +7,7 @@ def alphabetize(array)
 array.sort_by{|word|
   sort_val= word.split('').collect{|char|char_val(char)}
   # sort_val.join.to_i(28) 
-  # apparently sort_by sorts by character? 
+  # doesn't work
     
   }
 
