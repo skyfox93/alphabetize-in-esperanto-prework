@@ -1,5 +1,6 @@
 def alphabetize(arr)
-arry.sort_by{|word|
+arry.each{|word|
+word.split()
 
 
 end
