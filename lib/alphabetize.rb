@@ -1,6 +1,6 @@
-def alphabetize(arr)
+def alphabetize(array)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by{|word|
+  array.sort_by{|word|
     letters=alphabet.split('')
     sort_val=letters.collect{|char|
       letters.index(char)}
