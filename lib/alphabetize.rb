@@ -1,4 +1,4 @@
-binding.pry
+require('pry')
 def alphabetize(array)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   array.sort_by{|word|
